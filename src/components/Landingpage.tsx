@@ -28,17 +28,16 @@ export default function Landingpage() {
                 >
                   <img
                     className="position-absolute w-100 h-100"
-                    src="img/carousel-1.jpg"
+                    src="img/man.png"
                     style={{ objectFit: "cover" }}
                   />
                   <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div className="p-3" style={{ maxWidth: 700 }}>
                       <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">
-                        Men Fashion
+                        แฟชั่นบุรุษ
                       </h1>
                       <p className="mx-md-5 px-5 animate__animated animate__bounceIn">
-                        Lorem rebum magna amet lorem magna erat diam stet.
-                        Sadips duo stet amet amet ndiam elitr ipsum diam
+                        ใส่แล้วเท่ห์แบบมีสไตล์
                       </p>
                       <a
                         className="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
@@ -55,17 +54,16 @@ export default function Landingpage() {
                 >
                   <img
                     className="position-absolute w-100 h-100"
-                    src="img/carousel-2.jpg"
+                    src="img/woman.jpg"
                     style={{ objectFit: "cover" }}
                   />
                   <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div className="p-3" style={{ maxWidth: 700 }}>
                       <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">
-                        Women Fashion
+                        แฟชั่นสตรี
                       </h1>
                       <p className="mx-md-5 px-5 animate__animated animate__bounceIn">
-                        Lorem rebum magna amet lorem magna erat diam stet.
-                        Sadips duo stet amet amet ndiam elitr ipsum diam
+                        ใส่แล้วสวยมีเสน่ห์
                       </p>
                       <a
                         className="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
@@ -82,17 +80,16 @@ export default function Landingpage() {
                 >
                   <img
                     className="position-absolute w-100 h-100"
-                    src="img/carousel-3.jpg"
+                    src="img/girl.jpg"
                     style={{ objectFit: "cover" }}
                   />
                   <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div className="p-3" style={{ maxWidth: 700 }}>
                       <h1 className="display-4 text-white mb-3 animate__animated animate__fadeInDown">
-                        Kids Fashion
+                        แฟชั่นเด็ก
                       </h1>
                       <p className="mx-md-5 px-5 animate__animated animate__bounceIn">
-                        Lorem rebum magna amet lorem magna erat diam stet.
-                        Sadips duo stet amet amet ndiam elitr ipsum diam
+                        ใส่แล้วน่ารักสดใสร่าเริง
                       </p>
                       <a
                         className="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
@@ -176,7 +173,7 @@ export default function Landingpage() {
       {/* Categories Start */}
       <div className="container-fluid pt-5">
         <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4">
-          <span className="bg-secondary pr-3">Categories</span>
+          <span className="bg-secondary pr-3">แฟชั่นเด็ก</span>
         </h2>
         <div className="row px-xl-5 pb-3">
           <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
@@ -186,10 +183,10 @@ export default function Landingpage() {
                   className="overflow-hidden"
                   style={{ width: 100, height: 100 }}
                 >
-                  <img className="img-fluid" src="img/cat-1.jpg" alt="" />
+                  <img className="img-fluid" src="img/p1.jpg" alt="" />
                 </div>
                 <div className="flex-fill pl-3">
-                  <h6>Category Name</h6>
+                  <h6>แฟชั่นเด็ก 1</h6>
                   <small className="text-body">100 Products</small>
                 </div>
               </div>
@@ -202,10 +199,10 @@ export default function Landingpage() {
                   className="overflow-hidden"
                   style={{ width: 100, height: 100 }}
                 >
-                  <img className="img-fluid" src="img/cat-2.jpg" alt="" />
+                  <img className="img-fluid" src="img/p2.jpg" alt="" />
                 </div>
                 <div className="flex-fill pl-3">
-                  <h6>Category Name</h6>
+                  <h6>แฟชั่นเด็ก 2</h6>
                   <small className="text-body">100 Products</small>
                 </div>
               </div>
@@ -218,10 +215,10 @@ export default function Landingpage() {
                   className="overflow-hidden"
                   style={{ width: 100, height: 100 }}
                 >
-                  <img className="img-fluid" src="img/cat-3.jpg" alt="" />
+                  <img className="img-fluid" src="img/p3.jpg" alt="" />
                 </div>
                 <div className="flex-fill pl-3">
-                  <h6>Category Name</h6>
+                  <h6>แฟชั่นเด็ก 3</h6>
                   <small className="text-body">100 Products</small>
                 </div>
               </div>
@@ -234,10 +231,10 @@ export default function Landingpage() {
                   className="overflow-hidden"
                   style={{ width: 100, height: 100 }}
                 >
-                  <img className="img-fluid" src="img/cat-4.jpg" alt="" />
+                  <img className="img-fluid" src="img/p4.jpg" alt="" />
                 </div>
                 <div className="flex-fill pl-3">
-                  <h6>Category Name</h6>
+                  <h6>แฟชั่นเด็ก 4</h6>
                   <small className="text-body">100 Products</small>
                 </div>
               </div>

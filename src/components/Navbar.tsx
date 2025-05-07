@@ -1,7 +1,12 @@
+"use client"; // ใช้ใน Next.js 13+ (app directory)
+
+import { useState } from "react";
+
 import Script from "next/script";
 import React from "react";
 
 export default function Navbar() {
+  const [isCollapsed, setIsCollapsed] = useState(false);
   return (
     <div>
       <>
@@ -134,7 +139,7 @@ export default function Navbar() {
           </div>
           <div className="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
             <div className="col-lg-4">
-              <a href="" className="text-decoration-none">
+              <a href="/" className="text-decoration-none">
                 <span className="h1 text-uppercase text-primary bg-dark px-2">
                   สินค้า
                 </span>
@@ -330,7 +335,7 @@ export default function Navbar() {
                   id="navbarCollapse"
                 >
                   <div className="navbar-nav mr-auto py-0">
-                    <a href="index.html" className="nav-item nav-link active">
+                    <a href="/" className="nav-item nav-link active">
                       หน้าหลัก
                     </a>
                     <a href="/shop" className="nav-item nav-link">
@@ -357,6 +362,9 @@ export default function Navbar() {
                         </a>
                       </div>
                     </div>
+                    <a href="/ai" className="nav-item nav-link">
+                      AI ตรวจวินิจฉัยโรคมะเร็งปอด
+                    </a>
                     <a href="/contact" className="nav-item nav-link">
                       ติดต่อ
                     </a>
